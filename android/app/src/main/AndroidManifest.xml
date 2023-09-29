@@ -3,6 +3,8 @@
         android:label="a6_favorite_places"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyAAJ1UId-E2VZOZObb5YpMlKTlwMcl4TKU"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
